@@ -3,26 +3,34 @@
 # while i <= 6:
 #   print(i)
 #   i += 1
+
 #
+# li=[1,6,3,5,6]
 # for i in range(1,7):
 #      print(i)
 
 #while with break
 # i = 1
 # while i < 6:
+#   print(i)
 #   if i == 3:
-#     print(i)
 #     break
 #   i += 1
 
 #while with continue
+# i = 1
+# while i < 6:
+#   print(i)
+#   if i == 3:
+#     continue
+#   i += 1
 
 # i = 1
 # while i < 6:
 #     for j in "abc":
 #         print(j)
-#         # if j =='c':
-#         #     print(i)
+#         if j =='c':
+#             print(i)
 #         break
 #     i+=1
 
@@ -47,18 +55,18 @@
 #
 # A function can return data as a result.
 
-# def abc_def():
+# def a_c_def():
 #   print("Hello from a function")
 #
-# abc_def()
+# a_c_def()
 
-def my_function(a):
-    print(a + " Refsnes")
-
-print(my_function())
-my_function("234")
-my_function("356")
-
+# def my_function(a=1):
+#     print(a + " Refsnes")
+#
+# # print(my_function())
+# my_function("123","345")
+# my_function("356")
+# print(a)
 #
 # my_function("Emil")
 # my_function("Tobias")
@@ -68,20 +76,20 @@ my_function("356")
 #
 # An argument is the value that is sent to the function when it is called
 
-def my_function(fname, lname):
-  print(fname + " " + lname)
-
-my_function("Emil", "Refsnes")
+# def my_function(fname, lname):
+#   print(fname + " " + lname)
+#
+# my_function("Emil", "Refsnes")
 
 
 # ********Arbitrary Arguments, *args
 # arguments that will be passed into your function, add a * before the parameter name in the function definition.
-# def my_function(*kids):
+# def my_function(*kids,te,t):
 #     print(kids)
 #     for i in kids:
 #         print("The youngest child is " + i[0])
 # #
-# my_function("Emil", "Tobias", "Linus")
+# my_function("Emil", "Tobias", "Linus","gchdgc","jhdwgdcye",tea="chai",t=1)
 # ()
 
 
@@ -122,3 +130,7 @@ my_function("Emil", "Refsnes")
 #
 # my_function(fruits)
 
+#
+# create a function that calcualte the sum of list
+# create a function that takes input from user as firstname and lastname, print them using keyword arguments
+# create a function that find square of (2,3,5) using *args
